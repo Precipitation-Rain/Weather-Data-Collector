@@ -1,0 +1,120 @@
+1.static => beclongs to the class => to call this we don't need object
+2.can constrcutor be static => No
+3.can be static varible inside method => No
+4.static is not allowed in the method body
+
+is extednd => is a realtionship
+not a extend => has a realtionship
+
+what is volatile => change once apply evrywhere , used in multithreding
+transient => skipped in serialization
+anonomys => class without name -> only runs once 
+static block ,anonomus clas => runs once
+
+
+enumeration => type of cursion => used to traverse the collection
+using cursor you can apply your choice.
+
+Q) In how many wasy we can travel inside the colection:
+1.enumeration => only used with vector => legacy cursor => legacy class => hashtable is also legacy class => legacy which supports the  java 1
+2.iterator
+3.listItearator
+4.for each 
+5.normal for loop
+
+- collection is set of objects
+- object is instance of class
+- collection is set of collection and interface
+- origin and cross origin of java
+class to class  => origin 
+class to intrface => cross origin 
+
+local varaible  => stack
+instance varaible => heap
+print method => stores in native method
+pc register => current signal 
+method banats hain => method area
+method run => stack
+in stack => garbage collector won't work
+sorted set known as tree set
+
+
+
+what is diff betwenn java project and maven Project:
+maven Project : you are importing already built project 
+fresh java project => new frsh project built by you
+Q] which java we are using => java version 21 , 17
+Q] what are features of java version 21 and java versions 17:
+Q] tell feature of java version 8 => collection are , lamda expression , default method , interconnectivity
+Q] diff b/w white packages and colored packages 
+-> white is unused and colored in used
+Q] one package , two class eacj has main what happnes ->  it will ask which one you want to run => jvm only runs one class at a time
+
+
+- we have to write verything in small com.nt.cserit
+
+- enumration is best for the read only => fastest among all
+Q] diff b/w distinct(we use to remove duplicated from the collection usinf stream) and contains(is present or not)
+Q]what is actuator  => tern show helth of code
+Q] what is sonarLint => displays(detect) unnecessary lines of code written in the programs , it won't remove byitself
+Q] what is swagger => it gives inbuilt UI to test API
+Q] what is monolithic and microservice based => one down all down
+        NETFLIX => eureka server => microservice based project 
+
+Q] A class which has API => Controller class
+A class which has service known as => Service class
+implemetation of service class => Service implemetation class
+which class is called DAU class ? => which has the database connectivity
+
+- two forms of data sharing:
+1) xml => 
+Q] what is called SOAP service => a website which  shares data in xml to xml
+Q] Restful web service => sharing data json to json format but also support xml.
+json => horizontal Data
+Q] what is Load balancer -> 
+
+
+CURSOR 2 : iterator
+Iterator works with legacy and nor Legacy class
+- It can do read And Remove 
+- known as universal cursor
+- unidirectional
+- can't do add and update
+
+Q] what is compartor(own functions ex.sorting , multiple compare methods) and comparable(only one compare to method) => both are interface
+Q] what is compare and comapreTo => comparator has compare method , comparable has compareTo method
+Q] what is iterator and listItearator
+Q].iterator() replaces .elements() , .hasMoreelements() replaced by .hasNext()
+
+while(i1.hasNext()){
+    int s = (int)i1.next();
+    if(s == 67){
+        i1.remove();
+    }
+}
+System.out.println(a1)
+// a1 => araylist
+
+
+CURSOR -3 : ListIterator
+- do all operaton
+- it is bidirectional
+- hasNext() - to chheck there is any elemnt in next , hasPrevious() - is there lement in previous
+- no modification allowed in cursor then no modification allowed in collection , and it gives curremtModification exception
+- .set() for update , .remove() for delete , .add() to add , type cast to read 
+
+
+
+
+## SET:
+- don't allow duplicates.
+- don't preserve the insertion order  but arraylist has
+- default size of the set is 16 block while arraylist and vector are 10 block
+-  size  get doubled  when set get fulled
+- set internallly works on rehashing for memory management and hashing for memeory allocation
+- linkedhashset maintain ther insertion order and remove duplicates
+- allow only one null value
+- tree set give data in sorted order
+- you can store any type of collection into any other collection
+- vector v1 = new Vector(100 , 5) => get size 100 and when that gte fulls just add 5 more.
+
