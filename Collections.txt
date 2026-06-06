@@ -118,3 +118,10 @@ CURSOR -3 : ListIterator
 - you can store any type of collection into any other collection
 - vector v1 = new Vector(100 , 5) => get size 100 and when that gte fulls just add 5 more.
 
+
+
+
+
+#
+Result Set => term used to store all results coming from database
+
